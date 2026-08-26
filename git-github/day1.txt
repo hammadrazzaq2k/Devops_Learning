@@ -1,0 +1,18 @@
+=== Git & GitHub - Day 1 ===
+
+--- Basic Commands ---
+git init          -> Create a new repo
+git add .         -> Stage all files
+git add file.txt  -> Stage specific file
+git commit -m msg -> Save snapshot with message
+git push          -> Upload to GitHub
+git status        -> Check current state
+git log           -> See commit history
+git log --oneline -> Short commit history
+
+--- Setup Commands ---
+git config --global user.name  -> Set your name
+git config --global user.email -> Set your email
+git remote add origin URL      -> Connect to GitHub
+git branch -M main             -> Rename branch to main
+git push -u origin main        -> First push to GitHub
