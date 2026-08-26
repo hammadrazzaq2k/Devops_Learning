@@ -1,0 +1,5 @@
+2026-08-21 INFO App started
+2026-08-21 ERROR Database failed
+2026-08-21 INFO Retrying connection
+2026-08-21 ERROR Timeout occurred
+2026-08-21 INFO Connection restored

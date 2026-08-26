@@ -1,0 +1,23 @@
+=== Day 5 - Piping & Redirection ===
+
+--- Symbols ---
+|    -> Pipe: pass output of one command to another
+>    -> Redirect: write output to file (overwrites)
+>>   -> Append: add output to file (keeps existing)
+
+--- Commands ---
+sort -k4 -rn        -> Sort by column 4, reverse, numeric
+sort -k3 -rn        -> Sort by column 3 (CPU usage)
+awk {print $1}      -> Print first column only
+uniq                -> Remove duplicate lines
+
+--- Real World Usage ---
+grep ERROR app.log > errors.log   -> Save errors to file
+ps aux | sort -k4 -rn | head -5  -> Top 5 memory users
+ps aux | sort -k3 -rn | head -5  -> Top 5 CPU users
+
+--- Important Rules ---
+1. > overwrites - be careful!
+2. >> appends - safe for logs
+3. Pipe chains commands together
+4. -k means column number in sort

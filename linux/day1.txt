@@ -1,0 +1,42 @@
+Day 1 - Navigation and File Management
+=== Day 1 - Navigation & File Management ===
+
+--- Navigation Commands ---
+pwd          -> Print Working Directory (shows where you are)
+cd foldername    -> Change Directory (move into a folder)
+cd ..        -> Go up one folder
+cd ~         -> Go to home folder
+cd /         -> Go to root of the system
+
+--- Listing Commands ---
+ls           -> List files in current folder
+ls -l        -> List with details (size, date, permissions)
+ls -a        -> List including hidden files
+ls -la       -> List everything with details + hidden files
+
+--- File Commands ---
+touch file.txt         -> Create an empty file
+echo text > file.txt   -> Write text into a file (overwrites)
+echo text >> file.txt  -> Add text to a file (appends)
+cat file.txt           -> Read and print file contents
+cp file.txt copy.txt   -> Copy a file
+cp -r folder backup    -> Copy entire folder
+mv file.txt new.txt    -> Rename a file
+mv file.txt ../folder/ -> Move file to another folder
+rm file.txt            -> Delete a file
+rmdir foldername       -> Delete empty folder
+rm -rf foldername      -> Delete folder with everything inside
+
+--- Key Symbols ---
+.   -> Current folder
+..  -> One folder up
+~   -> Home folder
+/   -> Root of the system
+>   -> Write output to file (overwrites)
+>>  -> Add output to file (appends)
+
+--- Important Rules ---
+1. Linux is case sensitive - ls works, LS doesnt
+2. rm is permanent - no recycle bin, no undo
+3. rm -rf is dangerous - double check before running
+4. Always run ls after every command to confirm

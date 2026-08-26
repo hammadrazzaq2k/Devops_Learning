@@ -1,0 +1,27 @@
+=== Day 6 - Package Management & Networking ===
+
+--- Package Management ---
+brew update          -> Update homebrew package list
+brew install name    -> Install a package
+brew uninstall name  -> Remove a package
+brew list            -> Show installed packages
+brew search name     -> Search for a package
+
+--- Networking Commands ---
+ping -c 4 host       -> Test if server is reachable
+curl URL             -> Make HTTP request
+curl -I URL          -> Show response headers only
+curl -O URL          -> Download a file
+ifconfig | grep inet -> Show IP addresses
+dig domain           -> DNS lookup
+dig MX domain        -> Check mail server records
+dig @8.8.8.8 domain  -> Use specific DNS server
+ssh user@ip          -> Connect to remote server
+ssh-keygen -t rsa    -> Generate SSH key pair
+
+--- Important Notes ---
+1. 0% packet loss = server healthy
+2. 100% packet loss = server down
+3. DNS converts domain names to IP addresses
+4. Private key = keep secret, Public key = share with servers
+5. Lower MX priority number = higher priority mail server

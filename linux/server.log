@@ -1,0 +1,10 @@
+2026-08-18 10:01:00 INFO Server started
+2026-08-18 10:02:00 INFO User logged in
+2026-08-18 10:03:00 ERROR Database connection failed
+2026-08-18 10:04:00 INFO Request received
+2026-08-18 10:05:00 WARNING High memory usage
+2026-08-18 10:06:00 ERROR Timeout occurred
+2026-08-18 10:07:00 INFO User logged out
+2026-08-18 10:08:00 ERROR Disk full
+2026-08-18 10:09:00 INFO Server restarted
+2026-08-18 10:10:00 WARNING CPU spike detected

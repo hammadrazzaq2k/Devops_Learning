@@ -1,0 +1,27 @@
+=== Day 4 - Processes & System Info ===
+
+--- System Info Commands ---
+uptime           -> How long system has been running + load average
+df -h            -> Disk usage of all drives human readable
+du -sh folder    -> Size of a specific folder
+free -h          -> Memory usage human readable
+
+--- Process Commands ---
+ps aux           -> Show all running processes
+ps aux | grep name -> Find specific process
+top              -> Live process monitor (q to quit)
+kill PID         -> Politely ask process to stop
+kill -9 PID      -> Force kill process immediately
+
+--- ps aux columns ---
+USER   -> Who owns the process
+PID    -> Process ID unique number
+%CPU   -> CPU usage percentage
+%MEM   -> Memory usage percentage
+COMMAND -> What program is running
+
+--- Important Notes ---
+1. kill needs exact PID - use ps aux | grep name to find it
+2. grep is case sensitive - use grep -i for case insensitive
+3. kill -9 is force kill - use only when normal kill fails
+4. top shows live updates - press q to quit

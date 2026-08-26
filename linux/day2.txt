@@ -1,0 +1,23 @@
+=== Day 2 - Reading & Searching Files ===
+
+--- Reading Commands ---
+cat file        -> Print entire file contents
+less file       -> Scroll through file (q to quit)
+head -n file    -> Show first n lines
+tail -n file    -> Show last n lines
+wc -l file      -> Count total lines in file
+
+--- Search Commands ---
+grep 'word' file     -> Find lines containing word
+grep -i 'word' file  -> Case insensitive search
+grep -n 'word' file  -> Show line numbers of matches
+grep -c 'word' file  -> Count number of matches
+
+--- Piping ---
+cmd1 | cmd2     -> Pass output of cmd1 to cmd2
+
+--- Important Notes ---
+1. grep is case sensitive by default - use -i to ignore
+2. Always add filename or grep will hang
+3. Use Ctrl+C to exit a stuck command
+4. Pipe chains commands together - very powerful
