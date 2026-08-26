@@ -16,3 +16,4 @@ git config --global user.email -> Set your email
 git remote add origin URL      -> Connect to GitHub
 git branch -M main             -> Rename branch to main
 git push -u origin main        -> First push to GitHub
+git pull -> download changes from GitHub
